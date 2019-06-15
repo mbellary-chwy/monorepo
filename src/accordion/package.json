@@ -1,6 +1,6 @@
 {
   "name": "@mansoorbashabellary/accordion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "UNLICENSED",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,9 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MansoorBashaBellary/monorepo.git"
+    "url": "git@github.com:MansoorBashaBellary/monorepo.git",
+    "directory": "src/accordion"
   },
   "author": "Mansoor Basha Bellary",
+  "homepage": "https://github.com/MansoorBashaBellary/monorepo#readme",
   "bugs": {
     "url": "https://github.com/MansoorBashaBellary/monorepo/issues"
   },

@@ -9,7 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MansoorBashaBellary/monorepo.git"
+    "url": "git@github.com:MansoorBashaBellary/monorepo.git",
+    "directory": "src/tabs"
   },
   "author": "Mansoor Basha Bellary",
   "bugs": {
