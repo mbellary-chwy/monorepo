@@ -1,7 +1,7 @@
 {
   "name": "@mansoor/monorepo",
   "version": "0.1.0",
-  "private": true,
+  "license": "UNLICENSED",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean && lerna run build",
@@ -31,8 +31,5 @@
     "lerna": "^3.14.1",
     "lodash": "^4.17.5",
     "vue-template-compiler": "^2.6.10"
-  },
-  "workspaces": [
-    "src/*"
-  ]
+  }
 }
