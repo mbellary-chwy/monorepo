@@ -1,6 +1,6 @@
 {
-  "name": "@mansoor/monorepo",
-  "version": "0.1.0",
+  "name": "@mansoorbashabellary/monorepo",
+  "version": "1.0.0",
   "license": "UNLICENSED",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -20,6 +20,9 @@
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
@@ -31,5 +34,8 @@
     "lerna": "^3.14.1",
     "lodash": "^4.17.5",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "description": "## Project setup ``` yarn install ```",
+  "homepage": "https://github.com/MansoorBashaBellary/monorepo#readme",
+  "main": "dist/main.js"
 }

@@ -1,6 +1,6 @@
 {
-  "name": "@mansoor/tabs",
-  "version": "0.1.0",
+  "name": "@mansoorbashabellary/tabs",
+  "version": "1.0.0",
   "license": "UNLICENSED",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -18,6 +18,9 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
