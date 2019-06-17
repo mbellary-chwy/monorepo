@@ -25,6 +25,7 @@
     "access": "public"
   },
   "devDependencies": {
+    "@mansoorbashabellary/tabs": "*",
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
     "@vue/cli-service": "^3.8.0",
