@@ -4,11 +4,14 @@
   "license": "UNLICENSED",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean && lerna run build",
+    "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean && lerna run --parallel build",
     "clean": "lerna clean;rm -rf node_modules",
     "lint": "vue-cli-service lint"
   },
   "private": true,
+  "workspaces": [
+    "src/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:MansoorBashaBellary/monorepo.git"
@@ -37,8 +40,5 @@
     "vue-template-compiler": "^2.6.10"
   },
   "description": "## Project setup ``` yarn install ```",
-  "homepage": "https://github.com/MansoorBashaBellary/monorepo#readme",
-  "workspaces": [
-    "src/*"
-  ]
+  "homepage": "https://github.com/MansoorBashaBellary/monorepo#readme"
 }
