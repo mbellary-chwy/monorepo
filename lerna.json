@@ -4,5 +4,6 @@
   "packages": [
     "src/*"
   ],
-  "version": "independent"
+  "version": "independent",
+  "useWorkspaces": true
 }
