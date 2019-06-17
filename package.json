@@ -1,8 +1,8 @@
 {
   "name": "@mansoorbashabellary/monorepo",
   "version": "1.0.9",
-  "license": "UNLICENSED",
   "private": true,
+  "license": "UNLICENSED",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean && lerna run build",

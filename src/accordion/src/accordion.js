@@ -1,5 +1,5 @@
 import uniqueId from 'lodash/uniqueId';
-import '@mansoorbashabellary/tabs/src';
+import Tabs from '@mansoorbashabellary/tabs/src';
 
 const TRIGGER_WRAPPER_CLASS = 'trigger-wrapper';
 const TRIGGER_CLASS = 'trigger';
