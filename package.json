@@ -1,14 +1,15 @@
 {
   "name": "@mansoorbashabellary/monorepo",
   "version": "1.0.11",
-  "private": true,
   "license": "UNLICENSED",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean && lerna run build",
     "clean": "lerna clean;rm -rf node_modules",
     "lint": "vue-cli-service lint",
-    "release": "lerna publish --yes --conventional-commits --force-publish --skip-npm"
+    "postinstall": "lerna bootstrap",
+    "lerna": "lerna",
+    "release": "lerna publish --conventional-commits --message \"chore(npm): publish\""
   },
   "repository": {
     "type": "git",
@@ -38,8 +39,5 @@
     "vue-template-compiler": "^2.6.10"
   },
   "description": "## Project setup ``` yarn install ```",
-  "homepage": "https://github.com/MansoorBashaBellary/monorepo#readme",
-  "workspaces": [
-    "src/*"
-  ]
+  "homepage": "https://github.com/MansoorBashaBellary/monorepo#readme"
 }
