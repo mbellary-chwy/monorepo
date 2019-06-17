@@ -1,6 +1,6 @@
 {
   "name": "@mansoorbashabellary/accordion",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "UNLICENSED",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -18,7 +18,7 @@
     "url": "https://github.com/MansoorBashaBellary/monorepo/issues"
   },
   "dependencies": {
-    "@mansoorbashabellary/tabs": "*",
+    "@mansoorbashabellary/tabs": "^1.0.3",
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
