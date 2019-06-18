@@ -16,11 +16,12 @@
     "prepublishOnly": "node ./remove-private-field.js",
     "postpublish": "node ./add-private-field.js",
     "release": "lerna publish --yes --no-verify-access",
+    "changelog": "yarn conventional-changelog -p angular -i CHANGELOG.md -s",
     "commit": "git-cz",
-    "preversion": "yarn && yarn test && yarn document",
+    "preversion": "yarn",
     "version": "yarn changelog && git add CHANGELOG.md",
     "version:recommend": "conventional-recommended-bump -p angular",
-    "postversion": "git push && git push --tags && yarn copy:utilities && conventional-github-releaser -p angular"
+    "postversion": "git push && git push --tags && conventional-github-releaser -p angular"
   },
   "repository": {
     "type": "git",
