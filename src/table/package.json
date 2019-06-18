@@ -3,7 +3,6 @@
   "version": "1.0.2",
   "license": "UNLICENSED",
   "publishConfig": {
-    "registry": "http://artifactory.ecom.chewy.com/artifactory/api/npm/npm-local",
     "access": "public"
   },
   "scripts": {
