@@ -11,7 +11,7 @@
     "clean": "lerna clean --yes;rm -rf node_modules",
     "lint": "vue-cli-service lint",
     "prepublish": "node ./remove-private.js",
-    "postpublish": "node ./add-private.js && && git add package.json"
+    "postpublish": "node ./add-private.js && git add package.json"
   },
   "repository": {
     "type": "git",
