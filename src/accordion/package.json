@@ -1,6 +1,6 @@
 {
   "name": "@mansoorbashabellary/accordion",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "UNLICENSED",
   "publishConfig": {
     "access": "public"
@@ -9,7 +9,7 @@
     "serve": "vue-cli-service serve",
     "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean",
     "lint": "vue-cli-service lint",
-    "version": "yarn changelog && git add CHANGELOG.md",
+    "version": "yarn changelog && git add ./../../CHANGELOG.md",
     "changelog": "yarn conventional-changelog -p angular -i ./../../CHANGELOG.md -s",
     "version:recommend": "conventional-recommended-bump -p angular",
     "postversion": "git push && git push --tags && conventional-github-releaser -p angular"
