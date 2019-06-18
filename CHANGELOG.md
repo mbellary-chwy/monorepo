@@ -1,3 +1,13 @@
+<a name="1.0.40"></a>
+## [1.0.40](https://github.com/MansoorBashaBellary/monorepo/compare/v1.0.39...v1.0.40) (2019-06-18)
+
+
+### Features
+
+* **components:** update ([dc7169f](https://github.com/MansoorBashaBellary/monorepo/commit/dc7169f))
+
+
+
 <a name="1.0.39"></a>
 ## [1.0.39](https://github.com/MansoorBashaBellary/monorepo/compare/v1.0.38...v1.0.39) (2019-06-18)
 
