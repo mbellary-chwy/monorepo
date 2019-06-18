@@ -1,6 +1,6 @@
 {
   "name": "@mansoorbashabellary/monorepo",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "license": "UNLICENSED",
   "workspaces": [
     "src/*"
@@ -14,7 +14,8 @@
     "clean": "lerna clean --yes;rm -rf node_modules",
     "lint": "vue-cli-service lint",
     "prepublishOnly": "node ./remove-private-field.js",
-    "postpublish": "node ./add-private-field.js"
+    "postpublish": "node ./add-private-field.js",
+    "release": "lerna publish --conventional-commits --message \"chore(npm): publish\""
   },
   "repository": {
     "type": "git",
