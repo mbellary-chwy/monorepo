@@ -11,7 +11,7 @@
     "clean": "lerna clean --yes;rm -rf node_modules",
     "lint": "vue-cli-service lint",
     "prepublish": "node ./remove-private.js",
-    "postpublish": "node ./add-private.js"
+    "postpublish": "node ./add-private.js && && git add package.json"
   },
   "repository": {
     "type": "git",
@@ -41,5 +41,6 @@
     "vue-template-compiler": "^2.6.10"
   },
   "description": "## Project setup ``` yarn install ```",
-  "homepage": "https://github.com/MansoorBashaBellary/monorepo#readme"
+  "homepage": "https://github.com/MansoorBashaBellary/monorepo#readme",
+  "private": true
 }
