@@ -38,5 +38,6 @@
     "vue-template-compiler": "^2.6.10"
   },
   "description": "## Project setup ``` yarn install ```",
-  "homepage": "https://github.com/MansoorBashaBellary/monorepo#readme"
+  "homepage": "https://github.com/MansoorBashaBellary/monorepo#readme",
+  "private": true
 }
