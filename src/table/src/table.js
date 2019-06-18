@@ -9,5 +9,7 @@ const HOME_KEY = 36;
 const END_KEY = 35;
 
 export default class Table {
-  constructor(container, options = {}) {}
+  constructor(container, options = {}) {
+    
+  }
 }

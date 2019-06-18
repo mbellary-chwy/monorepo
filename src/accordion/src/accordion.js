@@ -20,13 +20,6 @@ export default class Accordion {
   constructor(container, options) {
     this.setUpElements(container);
     this.options = options;
-
-    this.triggerIds = [];
-    this._clickHandler = this.clickHandler.bind(this);
-    this._keyDownHandler = this.keyDownHandler.bind(this);
-    this.setUpDisabledItems();
-    this.setUpAriaAttributes();
-    this.setUpEvents();
   }
 
   setUpElements(container) {
