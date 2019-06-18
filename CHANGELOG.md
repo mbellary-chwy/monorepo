@@ -1,3 +1,8 @@
+<a name="1.0.10"></a>
+## [1.0.10](https://github.com/MansoorBashaBellary/monorepo/compare/v1.0.41...v1.0.10) (2019-06-18)
+
+
+
 <a name="1.0.41"></a>
 ## [1.0.41](https://github.com/MansoorBashaBellary/monorepo/compare/v1.0.40...v1.0.41) (2019-06-18)
 
