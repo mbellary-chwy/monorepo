@@ -1,3 +1,28 @@
+<a name="1.0.45"></a>
+## [1.0.45](https://github.com/MansoorBashaBellary/monorepo/compare/v1.0.42...v1.0.45) (2019-06-18)
+
+
+### Features
+
+* **package:** 2 ([67216a6](https://github.com/MansoorBashaBellary/monorepo/commit/67216a6))
+* **package:** 3 ([f330b35](https://github.com/MansoorBashaBellary/monorepo/commit/f330b35))
+* **package:** 3 ([ecf2698](https://github.com/MansoorBashaBellary/monorepo/commit/ecf2698))
+* **package:** 4 ([011d00a](https://github.com/MansoorBashaBellary/monorepo/commit/011d00a))
+* **package:** 5 ([ee1108f](https://github.com/MansoorBashaBellary/monorepo/commit/ee1108f))
+* **package:** 6 ([c9db63d](https://github.com/MansoorBashaBellary/monorepo/commit/c9db63d))
+* **package:** 7 ([ab35ec0](https://github.com/MansoorBashaBellary/monorepo/commit/ab35ec0))
+* **package:** 8 ([4322714](https://github.com/MansoorBashaBellary/monorepo/commit/4322714))
+* **package:** update packages ([339e99f](https://github.com/MansoorBashaBellary/monorepo/commit/339e99f))
+* **package:** update packages ([897aa24](https://github.com/MansoorBashaBellary/monorepo/commit/897aa24))
+* **table:** 1 ([8380d16](https://github.com/MansoorBashaBellary/monorepo/commit/8380d16))
+* **table:** update ([3a6b167](https://github.com/MansoorBashaBellary/monorepo/commit/3a6b167))
+* **table:** update 1 ([e79abf7](https://github.com/MansoorBashaBellary/monorepo/commit/e79abf7))
+* **tabs:** update ([16450e2](https://github.com/MansoorBashaBellary/monorepo/commit/16450e2))
+* **tabs:** update ([cd90cef](https://github.com/MansoorBashaBellary/monorepo/commit/cd90cef))
+* **tabs:** update ([dda918a](https://github.com/MansoorBashaBellary/monorepo/commit/dda918a))
+
+
+
 <a name="1.0.42"></a>
 ## [1.0.42](https://github.com/MansoorBashaBellary/monorepo/compare/v1.0.41...v1.0.42) (2019-06-18)
 
