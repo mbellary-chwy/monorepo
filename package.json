@@ -36,7 +36,6 @@
     "linters": {
       "**/*.js": [
         "prettier --write",
-        "eslint --no-ignore",
         "git add"
       ],
       "**/*.{scss,sass}": [
