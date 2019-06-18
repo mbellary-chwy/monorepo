@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "publishConfig": {
+    "registry": "http://artifactory.ecom.chewy.com/artifactory/api/npm/npm-local",
     "access": "public"
   },
   "repository": {

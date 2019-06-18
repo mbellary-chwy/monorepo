@@ -6,7 +6,7 @@
     "src/*"
   ],
   "publishConfig": {
-    "access": "public"
+    "registry": "http://artifactory.ecom.chewy.com/artifactory/api/npm/npm-local"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
