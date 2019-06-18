@@ -1,3 +1,13 @@
+<a name="1.0.38"></a>
+## [1.0.38](https://github.com/MansoorBashaBellary/monorepo/compare/v1.0.37...v1.0.38) (2019-06-18)
+
+
+### Features
+
+* **table:** package ([c63cca0](https://github.com/MansoorBashaBellary/monorepo/commit/c63cca0))
+
+
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
