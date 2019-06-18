@@ -18,7 +18,8 @@
     "release:pre": "lerna-semantic-release pre",
     "release:post": "lerna-semantic-release post",
     "release:perform": "lerna-semantic-release perform",
-    "release": "npm run release:pre && npm run release:post && npm run release:perform"
+    "release": "npm run release:pre && npm run release:post && npm run release:perform",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
