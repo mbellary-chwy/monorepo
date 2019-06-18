@@ -7,6 +7,9 @@
     "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean",
     "lint": "vue-cli-service lint"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:MansoorBashaBellary/monorepo.git",

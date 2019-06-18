@@ -1,7 +1,10 @@
 {
   "name": "@mansoorbashabellary/table",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "UNLICENSED",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean",
