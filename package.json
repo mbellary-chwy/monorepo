@@ -2,7 +2,6 @@
   "name": "@mansoorbashabellary/monorepo",
   "version": "1.0.21",
   "license": "UNLICENSED",
-  "private": true,
   "workspaces": [
     "src/*"
   ],
@@ -10,7 +9,9 @@
     "serve": "vue-cli-service serve",
     "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean && lerna run --parallel build",
     "clean": "lerna clean --yes;rm -rf node_modules",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prepublish": "node ./remove-private.js",
+    "postpublish": "node ./add-private.js"
   },
   "repository": {
     "type": "git",
