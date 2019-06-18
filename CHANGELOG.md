@@ -1,3 +1,13 @@
+<a name="1.0.11"></a>
+## [1.0.11](https://github.com/MansoorBashaBellary/monorepo/compare/v1.0.41...v1.0.11) (2019-06-18)
+
+
+### Features
+
+* **build:** components ([dd7fad2](https://github.com/MansoorBashaBellary/monorepo/commit/dd7fad2))
+
+
+
 <a name="1.0.10"></a>
 ## [1.0.10](https://github.com/MansoorBashaBellary/monorepo/compare/v1.0.41...v1.0.10) (2019-06-18)
 
