@@ -1,6 +1,6 @@
 {
   "name": "@mansoorbashabellary/monorepo",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "license": "UNLICENSED",
   "workspaces": [
     "src/*"
@@ -15,7 +15,10 @@
     "lint": "vue-cli-service lint",
     "prepublishOnly": "node ./remove-private-field.js",
     "postpublish": "node ./add-private-field.js",
-    "release": "lerna publish --conventional-commits --message \"chore(npm): publish\""
+    "release:pre": "lerna-semantic-release pre",
+    "release:post": "lerna-semantic-release post",
+    "release:perform": "lerna-semantic-release perform",
+    "release": "npm run release:pre && npm run release:post && npm run release:perform"
   },
   "repository": {
     "type": "git",
@@ -33,14 +36,15 @@
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.0.0",
-    "@commitlint/config-conventional": "^7.0.1",
+    "commitizen": "^2.9.6",
+    "cz-lerna-changelog": "^1.2.1",
+    "lerna-semantic-release": "^9.1.0",
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
     "@vue/cli-service": "^3.8.0",
