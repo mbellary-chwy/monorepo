@@ -1,6 +1,6 @@
 {
   "name": "@mansoorbashabellary/accordion",
-  "version": "1.0.11",
+  "version": "1.0.13",
   "license": "UNLICENSED",
   "publishConfig": {
     "access": "public"
@@ -12,7 +12,7 @@
     "version": "yarn changelog && git add ./../../CHANGELOG.md",
     "changelog": "yarn conventional-changelog -p angular -i ./../../CHANGELOG.md -s",
     "version:recommend": "conventional-recommended-bump -p angular",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags && conventional-github-releaser -p angular"
   },
   "repository": {
     "type": "git",

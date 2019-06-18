@@ -1,3 +1,27 @@
+<a name="1.0.13"></a>
+## [1.0.13](https://github.com/MansoorBashaBellary/monorepo/compare/v1.0.41...v1.0.13) (2019-06-18)
+
+
+### Features
+
+* **accordion:** updates ([98839cb](https://github.com/MansoorBashaBellary/monorepo/commit/98839cb))
+* **accordion:** updates ([43e818c](https://github.com/MansoorBashaBellary/monorepo/commit/43e818c))
+* **build:** components ([dd7fad2](https://github.com/MansoorBashaBellary/monorepo/commit/dd7fad2))
+
+
+
+<a name="1.0.12"></a>
+## [1.0.12](https://github.com/MansoorBashaBellary/monorepo/compare/v1.0.41...v1.0.12) (2019-06-18)
+
+
+### Features
+
+* **accordion:** updates ([98839cb](https://github.com/MansoorBashaBellary/monorepo/commit/98839cb))
+* **accordion:** updates ([43e818c](https://github.com/MansoorBashaBellary/monorepo/commit/43e818c))
+* **build:** components ([dd7fad2](https://github.com/MansoorBashaBellary/monorepo/commit/dd7fad2))
+
+
+
 <a name="1.0.12"></a>
 ## [1.0.12](https://github.com/MansoorBashaBellary/monorepo/compare/v1.0.41...v1.0.12) (2019-06-18)
 
