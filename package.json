@@ -10,8 +10,8 @@
     "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean && lerna run --parallel build",
     "clean": "lerna clean --yes;rm -rf node_modules",
     "lint": "vue-cli-service lint",
-    "prepublish": "node ./remove-private.js",
-    "postpublish": "node ./add-private.js"
+    "prepublish": "node ./remove-private-field.js",
+    "postpublish": "node ./add-private-field.js"
   },
   "repository": {
     "type": "git",
