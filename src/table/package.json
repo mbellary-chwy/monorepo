@@ -1,6 +1,6 @@
 {
-  "name": "@mansoorbashabellary/tabs",
-  "version": "1.0.8",
+  "name": "@mansoorbashabellary/table",
+  "version": "1.0.0",
   "license": "UNLICENSED",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,7 +10,7 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:MansoorBashaBellary/monorepo.git",
-    "directory": "src/tabs"
+    "directory": "src/table"
   },
   "author": "Mansoor Basha Bellary",
   "homepage": "https://github.com/MansoorBashaBellary/monorepo#readme",
