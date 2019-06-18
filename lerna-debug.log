@@ -1,0 +1,69 @@
+61 error Error: Command failed: git commit -F /private/var/folders/xc/m8zvd3gs0k504sbd5mrsx81xnkj3zd/T/d5d92e7a-9efe-4e9f-91a9-315ea0d06fa8/lerna-commit.txt
+61 error  > running pre-commit hook: lint-staged && yarn build
+61 error No staged files match any of provided globs.
+61 error yarn run v1.16.0
+61 error $ NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean && lerna run --parallel build
+61 error
+61 error -  Building for production...
+61 error  DONE  Compiled successfully in 279ms4:10:39 PM
+61 error
+61 error   File            Size                          Gzipped
+61 error
+61 error   dist/main.js    19.84 KiB                     6.25 KiB
+61 error
+61 error   Images and other types of assets omitted.
+61 error
+61 error  DONE  Build complete. The dist directory is ready to be deployed.
+61 error  INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+61 error
+61 error lerna notice cli v3.15.0
+61 error lerna info versioning independent
+61 error lerna info Executing command in 3 packages: "yarn run build"
+61 error @mansoorbashabellary/accordion: $ NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean
+61 error @mansoorbashabellary/table: $ NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean
+61 error @mansoorbashabellary/tabs: $ NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean
+61 error @mansoorbashabellary/accordion: -  Building for production...
+61 error @mansoorbashabellary/tabs: -  Building for production...
+61 error @mansoorbashabellary/table: -  Building for production...
+61 error @mansoorbashabellary/tabs:  DONE  Compiled successfully in 127ms4:10:41 PM
+61 error @mansoorbashabellary/table:  DONE  Compiled successfully in 130ms4:10:41 PM
+61 error @mansoorbashabellary/tabs:   File            Size                          Gzipped
+61 error @mansoorbashabellary/tabs:   dist/main.js    1.11 KiB                      0.54 KiB
+61 error @mansoorbashabellary/tabs:   Images and other types of assets omitted.
+61 error @mansoorbashabellary/tabs:  DONE  Build complete. The dist directory is ready to be deployed.
+61 error @mansoorbashabellary/tabs:  INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+61 error @mansoorbashabellary/tabs:
+61 error @mansoorbashabellary/table:   File            Size                          Gzipped
+61 error @mansoorbashabellary/table:   dist/main.js    1.15 KiB                      0.56 KiB
+61 error @mansoorbashabellary/table:   Images and other types of assets omitted.
+61 error @mansoorbashabellary/table:  DONE  Build complete. The dist directory is ready to be deployed.
+61 error @mansoorbashabellary/table:  INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+61 error @mansoorbashabellary/table:
+61 error @mansoorbashabellary/accordion:  DONE  Compiled successfully in 280ms4:10:42 PM
+61 error @mansoorbashabellary/accordion:   File            Size                          Gzipped
+61 error @mansoorbashabellary/accordion:   dist/main.js    19.73 KiB                     6.25 KiB
+61 error @mansoorbashabellary/accordion:   Images and other types of assets omitted.
+61 error @mansoorbashabellary/accordion:  DONE  Build complete. The dist directory is ready to be deployed.
+61 error @mansoorbashabellary/accordion:  INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+61 error @mansoorbashabellary/accordion:
+61 error lerna success run Ran npm script 'build' in 3 packages in 2.6s:
+61 error lerna success - @mansoorbashabellary/accordion
+61 error lerna success - @mansoorbashabellary/table
+61 error lerna success - @mansoorbashabellary/tabs
+61 error Done in 5.21s.
+61 error  > running commit-msg hook: commitlint -e $GIT_PARAMS
+61 error
+61 error ⧗   input: Publish
+61 error
+61 error  - @mansoorbashabellary/accordion@1.1.0
+61 error ✖   subject may not be empty [subject-empty]
+61 error ✖   type may not be empty [type-empty]
+61 error ✖   found 2 problems, 0 warnings
+61 error     (Need help? -> https://github.com/conventional-changelog/commitlint#what-is-commitlint )
+61 error
+61 error
+61 error
+61 error commit-msg hook failed (add --no-verify to bypass)
+61 error
+61 error     at makeError (/Users/mbellary/Desktop/monorepo/node_modules/execa/index.js:174:9)
+61 error     at Promise.all.then.arr (/Users/mbellary/Desktop/monorepo/node_modules/execa/index.js:278:16)

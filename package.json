@@ -13,10 +13,6 @@
     "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean && lerna run --parallel build",
     "clean": "lerna clean --yes;rm -rf node_modules",
     "lint": "vue-cli-service lint",
-    "version": "yarn changelog && git add CHANGELOG.md",
-    "changelog": "yarn conventional-changelog -p angular -i CHANGELOG.md -s",
-    "version:recommend": "conventional-recommended-bump -p angular",
-    "postversion": "git push && git push --tags && conventional-github-releaser -p angular",
     "prepublishOnly": "node ./remove-private-field.js",
     "postpublish": "node ./add-private-field.js"
   },
