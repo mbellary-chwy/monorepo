@@ -25,9 +25,6 @@
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
@@ -41,6 +38,5 @@
     "vue-template-compiler": "^2.6.10"
   },
   "description": "## Project setup ``` yarn install ```",
-  "homepage": "https://github.com/MansoorBashaBellary/monorepo#readme",
-  "private": true
+  "homepage": "https://github.com/MansoorBashaBellary/monorepo#readme"
 }

@@ -21,9 +21,6 @@
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "devDependencies": {
     "@mansoorbashabellary/tabs": "^1.0.3",
     "@vue/cli-plugin-babel": "^3.8.0",
