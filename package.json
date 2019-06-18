@@ -9,9 +9,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build --no-clean && lerna run --parallel build",
-    "clean": "lerna clean;rm -rf node_modules",
-    "lint": "vue-cli-service lint",
-    "publish": "lerna publish"
+    "clean": "lerna clean --yes;rm -rf node_modules",
+    "lint": "vue-cli-service lint"
   },
   "repository": {
     "type": "git",
