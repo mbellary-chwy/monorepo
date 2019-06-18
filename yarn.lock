@@ -7198,7 +7198,7 @@ lerna-semantic-release@^9.1.0:
     lerna-semantic-release-utils "^4.0.0"
     meow "^3.7.0"
 
-lerna@^3.14.1:
+lerna@^3.14.1, lerna@^3.4.0:
   version "3.15.0"
   resolved "https://registry.yarnpkg.com/lerna/-/lerna-3.15.0.tgz#b044dba8138d7a1a8dd48ac1d80e7541bdde0d1f"
   integrity sha512-kRIQ3bgzkmew5/WZQ0C9WjH0IUf3ZmTNnBwTHfXgLkVY7td0lbwMQFD7zehflUn0zG4ou54o/gn+IfjF0ti/5A==
