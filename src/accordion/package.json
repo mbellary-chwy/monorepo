@@ -20,10 +20,6 @@
   "bugs": {
     "url": "https://github.com/MansoorBashaBellary/monorepo/issues"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged && yarn build",
-    "commit-msg": "commitlint -e $GIT_PARAMS"
-  },
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
