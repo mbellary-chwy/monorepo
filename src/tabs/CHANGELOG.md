@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/MansoorBashaBellary/monorepo/compare/@mansoorbashabellary/tabs@1.1.0...@mansoorbashabellary/tabs@1.2.0) (2019-06-18)
+
+
+### Features
+
+* **package:** 8 ([4322714](https://github.com/MansoorBashaBellary/monorepo/commit/4322714))
+
+
+
+
+
 # 1.1.0 (2019-06-18)
 
 
