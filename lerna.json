@@ -2,10 +2,5 @@
   "npmClient": "yarn",
   "lerna": "3.14.1",
   "version": "independent",
-  "useWorkspaces": true,
-  "command": {
-    "publish": {
-      "conventionalCommits": true
-    }
-  }
+  "useWorkspaces": true
 }
