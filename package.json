@@ -17,7 +17,40 @@
     "postpublish": "node ./add-private-field.js",
     "release": "lerna publish --yes --no-verify-access",
     "changelog": "yarn conventional-changelog -p angular -i CHANGELOG.md -s",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "preversion": "yarn && yarn test && yarn document",
+    "version": "yarn changelog && git add CHANGELOG.md",
+    "version:recommend": "conventional-recommended-bump -p angular",
+    "postversion": "git push && git push --tags && yarn copy:utilities && conventional-github-releaser -p angular"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged && yarn test && yarn build",
+    "commit-msg": "commitlint -e $GIT_PARAMS"
+  },
+  "lint-staged": {
+    "linters": {
+      "**/*.js": [
+        "prettier --write",
+        "eslint --no-ignore",
+        "git add"
+      ],
+      "**/*.{scss,sass}": [
+        "sass-lint -v"
+      ]
+    },
+    "ignore": [
+      "src/js-lib/vendor/**"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-angular"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "repository": {
     "type": "git",
