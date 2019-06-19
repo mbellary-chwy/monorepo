@@ -22,35 +22,6 @@
     "version:recommend": "conventional-recommended-bump -p angular",
     "postversion": "git push && git push --tags && conventional-github-releaser -p angular"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged && yarn build",
-    "commit-msg": "commitlint -e $GIT_PARAMS"
-  },
-  "lint-staged": {
-    "linters": {
-      "**/*.js": [
-        "prettier --write",
-        "eslint --no-ignore",
-        "git add"
-      ],
-      "**/*.{scss,sass}": [
-        "sass-lint -v"
-      ]
-    },
-    "ignore": [
-      "src/js-lib/vendor/**"
-    ]
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-angular"
-    ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:MansoorBashaBellary/monorepo.git"

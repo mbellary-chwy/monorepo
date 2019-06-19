@@ -1,6 +1,6 @@
 {
   "name": "@mansoorbashabellary/accordion",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "license": "UNLICENSED",
   "publishConfig": {
     "access": "public"
@@ -25,7 +25,7 @@
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@mansoorbashabellary/tabs": "^1.2.3",
+    "@mansoorbashabellary/tabs": "^1.2.4",
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
     "@vue/cli-service": "^3.8.0",
