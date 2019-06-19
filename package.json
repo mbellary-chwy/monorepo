@@ -17,11 +17,7 @@
     "postpublish": "node ./add-private-field.js",
     "release": "lerna publish --yes --no-verify-access",
     "changelog": "yarn conventional-changelog -p angular -i CHANGELOG.md -s",
-    "commit": "git-cz",
-    "preversion": "yarn",
-    "version": "yarn changelog && git add CHANGELOG.md",
-    "version:recommend": "conventional-recommended-bump -p angular",
-    "postversion": "git push && git push --tags && conventional-github-releaser -p angular"
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -34,35 +30,6 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged && yarn build",
-    "commit-msg": "commitlint -e $GIT_PARAMS"
-  },
-  "lint-staged": {
-    "linters": {
-      "**/*.js": [
-        "prettier --write",
-        "eslint --no-ignore",
-        "git add"
-      ],
-      "**/*.{scss,sass}": [
-        "sass-lint -v"
-      ]
-    },
-    "ignore": [
-      "src/js-lib/vendor/**"
-    ]
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-angular"
-    ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   },
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",
