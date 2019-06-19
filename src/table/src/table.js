@@ -10,6 +10,6 @@ const END_KEY = 35;
 
 export default class Table {
   constructor(container, options = {}) {
-    
+    console.log('Table');
   }
 }
