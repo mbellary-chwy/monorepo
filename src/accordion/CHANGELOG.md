@@ -1,3 +1,13 @@
+<a name="1.4.2"></a>
+## [1.4.2](https://github.com/MansoorBashaBellary/monorepo/compare/v1.0.45...v1.4.2) (2019-06-18)
+
+
+### Features
+
+* **table:** update 2 ([79346b5](https://github.com/MansoorBashaBellary/monorepo/commit/79346b5))
+
+
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
