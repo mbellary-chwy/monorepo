@@ -18,13 +18,13 @@
     "release": "lerna publish --yes --no-verify-access",
     "changelog": "yarn conventional-changelog -p angular -i CHANGELOG.md -s",
     "commit": "git-cz",
-    "preversion": "yarn && yarn test && yarn document",
+    "preversion": "yarn",
     "version": "yarn changelog && git add CHANGELOG.md",
     "version:recommend": "conventional-recommended-bump -p angular",
-    "postversion": "git push && git push --tags && yarn copy:utilities && conventional-github-releaser -p angular"
+    "postversion": "git push && git push --tags && conventional-github-releaser -p angular"
   },
   "gitHooks": {
-    "pre-commit": "lint-staged && yarn test && yarn build",
+    "pre-commit": "lint-staged && yarn build",
     "commit-msg": "commitlint -e $GIT_PARAMS"
   },
   "lint-staged": {
