@@ -3,7 +3,6 @@
   "version": "1.0.45",
   "license": "UNLICENSED",
   "workspaces": [
-    "*",
     "src/*"
   ],
   "publishConfig": {
