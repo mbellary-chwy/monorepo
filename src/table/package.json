@@ -1,6 +1,6 @@
 {
   "name": "@mansoorbashabellary/table",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "license": "UNLICENSED",
   "publishConfig": {
     "access": "public"
@@ -19,10 +19,6 @@
   "homepage": "https://github.com/MansoorBashaBellary/monorepo#readme",
   "bugs": {
     "url": "https://github.com/MansoorBashaBellary/monorepo/issues"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged && yarn build",
-    "commit-msg": "commitlint -e $GIT_PARAMS"
   },
   "dependencies": {
     "core-js": "^2.6.5",
